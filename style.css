@@ -1,0 +1,207 @@
+*{
+    font-family: "PT Serif", serif;
+}
+.bgimg{
+    width:100%;
+    height: 1500px;
+    padding: 0px;
+    margin-left: px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+   background-color: black;
+   background-image: url('https://blog.jetbrains.com/wp-content/uploads/2023/03/image2.jpg');
+   background-size:contain;
+   
+}
+
+ li{
+    margin: 100px;
+    margin-left: 10px;
+}
+nav{
+    width: 250px;
+    height: 1500px;
+    background-color: rgb(13, 10, 10);
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.main{
+    position: absolute;
+    left: 20%;
+    font-size:80px;
+    border: 2px inset;
+    margin-top: 70px;
+    box-shadow: 2px 4px whitesmoke;
+
+}
+.main:hover{
+    box-shadow: 2px 4px rgb(156, 2, 2);
+    font-style: italic;
+    color: brown;
+}
+span{
+    color: rgb(218, 226, 234);
+    font-size: 80px;
+}
+#download button{
+    position: absolute;
+    left: 73%;
+    margin-top: 400px;
+        font-weight: bolder;
+        font-size:x-large;
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#download button a{
+    text-decoration: none;
+    color: black;
+}
+
+#img1:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+    scale: 1.05;
+    border: 2px;
+    box-shadow: 2px 4px rgb(239, 236, 236);
+
+}
+
+.tabname{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+
+
+}
+.tabname:hover{
+    scale: 1.05;
+    font-size: xx-large;
+    color: brown;
+}
+#download button:hover{
+    scale: 1.05;
+    background-color: rgb(11, 5, 8);
+    
+
+}
+#download button a:hover{
+    color: rgb(249, 15, 15);
+}
+.pic{
+    display: flex;
+    margin-top: 90px;
+}
+.pic h4{
+    font-size: 30px;
+    text-align: center;
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.pic p{margin-top: 20px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+#about,#services,#contact{
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    width: 100%;
+    height: 600px;
+    
+ 
+   
+}
+h3{display: flex;
+    flex-direction: column;
+        text-align: center;
+    background-color: rgb(44, 4, 7);
+    margin-top: 10px;
+}
+.pic img{
+    margin-left: 20px;
+    height:400px;
+    height:400px;
+    
+}
+
+
+.row{
+    display: flex;
+}
+.col{
+    width: 650px;
+    height: 600px;
+    margin: 10px;
+    border: 4px inset;
+    
+}
+.col img{
+    width: 600px;
+    height: 480px;
+    cursor: pointer;
+}
+h5{
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
+
+.col:hover{
+    background-position: left bottom;
+    box-shadow: 4px 6px 8px rgb(247, 245, 245);
+    scale: 1.05;
+
+}
+#contact h4{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#form{
+    margin-left: 300px;
+    align-items: center;
+}
+.input{
+    width: 1200px;
+    height: 75px;
+    margin: 10px;
+    font-size: 20px;
+}
+#form button{
+    background-color: rgb(122, 119, 119);
+    font-weight: bolder;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+      
+}
+footer p{
+    margin-left: 800px;
+    display:flex ;
+    }
+footer i{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 10px;
+    background-color:white
+  
+}
+#copyright{
+   margin-left:900px;
+    color: white;
+}
+
